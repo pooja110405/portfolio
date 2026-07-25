@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pooja Musande</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#home" class="logo">Portfolio</a>
+    <nav class="nav-links">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>Hello, I'm <span class="grad-text">Pooja Musande</span></h1>
+    <p class="hero-tagline">Designing, building, and innovating.</p>
+    <p class="hero-desc">I'm an Information Technology Engineering student who enjoys turning ideas into working
+      software — from web apps to backend systems — and learning something new with every project I build.</p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-grad">View My Work</a>
+      <a href="#contact" class="btn btn-outline">Let's Connect</a>
+    </div>
+  </div>
+
+ <div class="hero-visual"><div class="photo-glow"></div><img src="images/profile.jpeg" alt="Pooja Musande" class="hero-photo" />
+   
+    <div class="floating-card card-1"><strong>Java &amp; Spring Boot</strong><span>Backend Development</span></div>
+    <div class="floating-card card-2"><strong>Web Development</strong><span>HTML · CSS · JS</span></div>
+    <div class="floating-card card-3"><strong>DSA</strong><span>Practicing on LeetCode</span></div>
+    <div class="floating-card card-4"><strong>MySQL</strong><span>Database Design</span></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <h2 class="section-title">About Me</h2>
+  <p class="section-sub">Passionate about building digital solutions</p>
+
+  <div class="about-grid">
+    <div class="about-text">
+      <p>I'm a Information Technology Engineering student with a strong interest in building full-stack
+        applications — from designing the database and backend logic to making the interface
+        actually pleasant to use.</p>
+      <p>I like projects that solve a real problem, and I'm currently deepening my skills
+        in Java/Spring Boot backends and data structures & algorithms alongside my coursework.</p>
+      <ul class="about-facts">
+        <li><span>College</span> Nutan Maharashtra Institute Of Engg & Technology, Pune</li>
+        <li><span>Year</span> Third Year, IT Engineering</li>
+        <li><span>Email</span> poojamusande11@gmail.com</li>
+      </ul>
+    </div>
+    <div class="about-stats">
+      <div class="stat"><span class="stat-num" data-target="3">0</span><span class="stat-plus">+</span><span class="stat-label">Projects Built</span></div>
+<div class="stat"><span class="stat-num" data-target="2">0</span><span class="stat-plus">+</span><span class="stat-label">Years Coding</span></div>
+<div class="stat"><span class="stat-num" data-target="90">0</span><span class="stat-plus">+</span><span class="stat-label">DSA Problems</span></div>
+  </div>
+</section>
+
+
+<!-- EDUCATION -->
+<section id="education" class="education">
+  <h2 class="section-title">Education</h2>
+  <p class="section-sub">My academic journey so far</p>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Bachelor of Engineering — Information Technology</h3>
+        <span class="timeline-date">2023 — 2027</span>
+        <p class="timeline-place">NMIET, Pune</p>
+        <ul class="cgpa-list">
+      <li><span>FE (First Year)</span><span>CGPA: 9.6</span></li>
+      <li><span>SE (Second Year)</span><span>CGPA: 8.7</span></li>
+      <li><span>TE (Third Year)</span><span>CGPA: 8.7</span></li>
+    </ul>
+        <p class="timeline-detail">Relevant coursework: Data Structures, DBMS, Web Development, OOP.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Higher Secondary (12th) — Science</h3>
+        <span class="timeline-date">2021 — 2023</span>
+        <p class="timeline-place">NSJC, Pune</p>
+        <p class="timeline-detail">Percentage: 70.5%</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Secondary School (10th)</h3>
+        <span class="timeline-date">2021</span>
+        <p class="timeline-place">Kantilal Shah Vidyalaya, Pune</p>
+        <p class="timeline-detail">Percentage: 84.6%</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="projects">
+  <h2 class="section-title">Featured Projects</h2>
+  <p class="section-sub">Some of the things I've been building</p>
+
+  <div class="project-grid">
+    <article class="project-card">
+      <img src="images/resume.jpg" alt="HopeConnect project screenshot" class="project-img" />
+      <h3>ResumeIQ</h3>
+      <p>an AI-powered resume analyzer that provides personalized feedback and ATS-focused insights to help users improve their resumes. It streamlines the resume optimization process, enabling job seekers to create stronger and more competitive applications.</p>
+      <div class="tags"><span>Java</span><span>Spring Boot</span><span>MySQL</span><span>HTML/CSS/JS</span></div>
+      <div class="project-links">
+        <a href="#">View Live →</a>
+        <a href="#">View Code →</a>
+      </div>
+    </article>
+    <article class="project-card">
+       <img src="images/bank.jpg" alt="HopeConnect project screenshot" class="project-img" />
+      <h3>SmartBank</h3>
+      <p>a comprehensive banking application designed to facilitate secure account management, transaction processing, and customer banking operations..</p>
+      <div class="tags"><span>Java</span><span>Spring Boot</span><span>MySQL</span><span>HTML/CSS/JS</span></div>
+      <div class="project-links">
+        <a href="#">View Live →</a>
+        <a href="#">View Code →</a>
+      </div>
+    </article>
+    <article class="project-card">
+<img src="images/women1.jpg" alt="Sakhi Support project screenshot" class="project-img" />
+      <p>a web-based crowdfunding platform that empowers women by connecting them with donors to raise funds for education, healthcare, entrepreneurship, and skill development.</p>
+      <div class="tags"><span>Java</span><span>Spring Boot</span><span>MySQL</span><span>HTML/CSS/JS</span></div>
+      <div class="project-links">
+        <a href="#">View Live →</a>
+        <a href="#">View Code →</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="skills">
+  <h2 class="section-title">Skills &amp; Technologies</h2>
+  <p class="section-sub">Tools and technologies I work with</p>
+
+  <div class="skills-grid">
+    <div class="skill-card"><h3>Frontend</h3><div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div></div>
+    <div class="skill-card"><h3>Backend</h3><div class="tags"><span>Java</span><span>Spring Boot</span><span>MySQL</span></div></div>
+    <div class="skill-card"><h3>Tools</h3><div class="tags"><span>Git</span><span>Sql Workbench</span><span>Eclipse</span><span>GitHub</span><span>VS Code</span><span>Postman</span></div></div>
+    <div class="skill-card"><h3>Currently Learning</h3><div class="tags"><span>DSA</span><span>System Design</span></div></div>
+  </div>
+</section>
+
+<!-- Internships Section -->
+<section id="internships" class="internships">
+    <div class="container">
+        <h2 class="section-title">Internships</h2>
+
+        <div class="internship-container">
+
+            <div class="internship-card">
+                <div class="internship-header">
+                    <h3>JavaScript Intern</h3>
+                    <span>Jan 2025 - Mar 2025</span>
+                </div>
+
+                <h4>Softwarescope Technologies</h4>
+
+                <p>
+                    Gained hands-on experience in JavaScript by creating dynamic web features, working with APIs, and improving website functionality. Enhanced problem-solving skills while contributing to real-world projects.
+                </p>
+
+              
+                <ul>
+                    
+                    <li>Worked with MySQL database</li>
+                    <li>Implemented CRUD operations</li>
+                </ul>
+               <a href="Certificates/software.pdf" target="_blank">View Offer Letter →</a>
+
+            </div>
+
+            <div class="internship-card">
+                <div class="internship-header">
+                    <h3>Web development Intern</h3>
+                    <span>July 2025 - Aug 2025</span>
+                </div>
+
+                <h4>Internpe</h4>
+
+                <p>
+                    Designed responsive web pages using HTML, CSS, and JavaScript.
+                </p>
+
+                <ul>
+                    <li>Created responsive UI</li>
+                    <li>Improved website performance</li>
+                    <li>Collaborated with design team</li>
+                </ul>
+                <a href="Certificates/internpe.pdf" target="_blank">View Offer Letter →</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="certifications">
+  <h2 class="section-title">Certifications</h2>
+  <p class="section-sub">Courses and certifications I've completed</p>
+
+  <div class="cert-grid">
+    <div class="cert-card">
+      <h3>Java for Beginners</h3>
+      <p class="cert-issuer">Infosys Springboard · July 2026</p>
+      <a href="certificates/InfosysCertificate.pdf" target="_blank">View Certificate →</a>
+    </div>
+    <div class="cert-card">
+      <h3>Java Programming & SpringBoot development</h3>
+      <p class="cert-issuer">L&T Edutech · March 2026</p>
+      <a href="certificates/Java Programming and Spring Boot Development (1).pdf" target="_blank">View Certificate →</a>
+    </div>
+    <div class="cert-card">
+      <h3>OOPS using C++</h3>
+      <p class="cert-issuer">Techdevine · September 2024</p>
+      <a href="certificates/Techdevine.jpeg" target="_blank">View Certificate →</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2 class="section-title">Let's Work Together</h2>
+  <p class="section-sub">Ready to bring ideas to life</p>
+
+  <div class="contact-grid">
+    <div class="contact-info">
+      <p><strong>Email</strong><br>poojamusande11@gmail.com</p>
+      <p><strong>Phone</strong><br>+91 9970668396</p>
+      <p><strong>Location</strong><br>Pune, India</p>
+      <div class="social-links">
+        <a href="https://github.com/pooja110405" target="_blank">GitHub</a>
+       <a href="https://www.linkedin.com/in/pooja-musande-8675b6379" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+    <form class="contact-form" id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <input type="text" placeholder="Subject" />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn btn-grad">Send Message</button>
+      <p class="form-note" id="formNote"></p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2026 Pooja Musande. Built with code and curiosity.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
